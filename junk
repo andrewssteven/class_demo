@@ -1,0 +1,6 @@
+cursor.execute('''
+               CREATE TABLE table2 (
+                   id INTEGER PRIMARY KEY,
+                   completed BOOLEAN NOT NULL DEFAULT False
+               );
+               ''')
